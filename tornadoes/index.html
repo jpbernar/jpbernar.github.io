@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color: lightgrey;">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="main.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/carousel/"
+    />
+
+    <h1></h1>
+
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- ********* BEGIN NAVBAR ************ -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+
+    <nav
+      class="navbar navbar-expand navbar-dark bg-dark"
+      aria-label="Second navbar example"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample02"
+          aria-controls="navbarsExample02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1E2rOfyJV0rorjUdXhphSdNPIktzXAyNAXFNJLr9L294/edit?usp=sharing">The Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/watch?v=2pnz3dwq9aE">More about Tornadoes</a>
+            </li>
+          </ul>
+          <
+        </div>
+      </div>
+    </nav>
+
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********   END NAVBAR  *********** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+
+
+	<title>Tornado Activity and Climate Change. Are They Connected?</title>
+
+<body>
+
+<br/>
+
+<div class="mainimg">
+
+<button class="btn btn--ui btn--white btn-social-share"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="share-square" class="svg-inline--fa fa-share-square fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 0 0 8.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 0 1-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z"></path></svg>Share<span class="screen-reader-text"></span></button>
+
+<a class="facebook-share" rel="noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=https://newhouse.syr.edu/news/syracuse-university-los-angeles-semester-students-get-vip-tour-of-warner-bros-studios/&amp;amp;t=Syracuse University Los Angeles Semester students get VIP tour of Warner Bros. studios" target="_blank" title="Share on Facebook"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10 " style="width: 2rem" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg><span class="screen-reader-text"></span></a>
+
+<a class="twitter-share" rel="noreferrer" href="https://twitter.com/intent/tweet?url=https://newhouse.syr.edu/news/syracuse-university-los-angeles-semester-students-get-vip-tour-of-warner-bros-studios/&amp;amp;text=Syracuse University Los Angeles Semester students get VIP tour of Warner Bros. studios" target="_blank" title="Share on Twitter"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16 " style="width: 3rem" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><span class="screen-reader-text"></span></a>
+
+<hr> </hr> 
+
+<h1> Tornado Activity and Climate Change. Are They Connected? </h1>
+
+<b> By Jacob Bernardini </b>
+
+<img src="Kentucky.jpg">
+<center>
+<caption>Deadly Tornadoes in Kentucky flatten towns, death toll still climbing. </caption>
+</center>
+<br> </br>
+
+<p>December 10th, 2021. A large intense tornado touched down in Western Kentucky and caused massive damage in multiple towns. The death toll from this disaster is still unknown and relief is still underway in the Bluegrass state. However, tornadoes like this are highly unusual, especially in December. </p>
+
+<p>While the official cause for tornado formation is still unknown by meteorologists, the consensus to produce a storm system that can is widely agreed upon. These systems, called supercells, are caused by a layer of warm humid air moving in a direction, and cold dry air moving in the opposite direction. This difference in temperature and air pressure causes circulation.   </p>
+
+<p>With more and more irregular tornado outbreaks in the United States. Climate change is often in the center of the discussion on why this is happening. But how does climate change contribute to these changes? How does it correlate to tornadoes? The answer to this question is just like a tornado. Unpredictable.  </p>
+
+<br> </br>
+
+<center>
+
+    <h1>
+      Tornadoes are becoming more common, but are still quite random
+    </h1>
+
+</center>
+
+<center>
+
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- ********* BEGIN CARD ************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+      
+    <div class="card" style="width: 50rem;">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+          <h1>
+      
+    </h1>
+
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********   CAROUSEL ************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+          fill="#777"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg
+            width="100%"
+            height="500"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect width="50%" height="50%" fill="#ffffff" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <!-- *********************************** -->
+              <!-- *********************************** -->
+              <!-- *************Carousel item 1******* -->
+              <!-- *********************************** -->
+              <!-- *********************************** -->
+              <p><iframe title="Total Amount of Tornadoes 1950-2019" aria-label="Scatter Plot" id="datawrapper-chart-TdRFq" src="https://datawrapper.dwcdn.net/TdRFq/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script></p>
+              <!-- *********************************** -->
+              <!-- *********************************** -->
+              <!-- **********End Carousel item 1****** -->
+              <!-- *********************************** -->
+              <!-- *********************************** -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg
+            class="bd-placeholder-img"
+            width="100%"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect width="100%" height="100%" fill="#ffffff" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <!-- *********************************** -->
+              <!-- *********************************** -->
+              <!-- *************Carousel item 2******* -->
+              <!-- *********************************** -->
+              <!-- *********************************** -->
+
+              <p><iframe title="Amount of Severe Tornadoes 1950-2019" aria-label="Interactive line chart" id="datawrapper-chart-d7fvc" src="https://datawrapper.dwcdn.net/d7fvc/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="250"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}(); </script></p>
+
+              <!-- *********************************** -->
+              <!-- *********************************** -->
+              <!-- *************End carousel item 2 ** -->
+              <!-- *********************************** -->
+              <!-- *********************************** -->
+            </div>
+          </div>
+        </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********   END CAROUSEL ********** -->
+    <!-- *********** *********************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+        </p>
+
+      </div>
+    </div>
+
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- ********* END CARD **************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->      
+
+</center>
+
+<br> </br>
+
+<p>While tornadoes have been gradually increasing. The number of tornadoes per year, varies wildly. For instance, 2012 had less than one thousand tornadoes recorded that year. While the year before, 2011, was a one of the most active tornado seasons on record. This variation also applies to tornado strength. With the amount of F3 and above tornadoes varying wildly by year.  </p>
+
+<p>The reason for this is has to do with weather patterns in the region. In contrast with hurricanes, tornadoes also are impacted by these patterns. More specifically the La Nina weather pattern. Which has been linked to a higher frequency of tornadoes in the spring according to NOAA.</p>
+
+<p>Disparities in the number of severe tornadoes also deals with the evolution of tornado coverage. Tornadoes today are ranked using the Enhanced Fujita scale, however before 2007, the Fujita scale was used. </p>
+
+<p>“Changes in tornadic path characteristics across the F–EF divide, and the apparent influence of updated tornado survey practices either mask or complicate the identification of more-subtle climatic signals” says Roger Edwards, a meteorologist from the National Weather Service in a report published in October. “This poses a substantial handicap for attempts to determine relationships (if any) between climatic change and indicators of tornado strength.” </p>
+
+<p>Despite these facts, it is important to note that tornadoes, generally, are still increasing. Not just in Tornado Alley, but in the entire continental United States. Furthermore, the time of year in which tornadoes occur is also becoming more random. With tornadoes becoming more frequent outside of the peak tornado season in the spring. </p>
+
+<p>“As the air masses on the planet and the different wind pattern warm and change and expand. The jet streams start to swing more wildly.” said Daniel Curewitz, professor of Earth and Environmental Sciences at Syracuse University. “And the swinging of the jet streams is bringing different air masses into different regions in a more extreme fashion.” </p>
+
+<p>The change of the jet streams is causing a wide array of changes in weather, most famous being the polar vortex in the Northeast and Midwest. This destabilizing of the jet streams brings different air masses togethers and causes tornadic activity more frequently outside of Tornado Alley</p>
+
+<br> </br>
+
+<center>
+
+    <h1>
+     Tornado Alley is expanding eastward
+    </h1>
+
+</center>
+
+<center>
+
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- ********* BEGIN CARD ************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+      
+    <div class="card border-dark mb-3" style="max-width: 50rem;">
+  <div class="card-header">The Midwest and Southeast are becoming hotspots for tornadoes</div>
+  <div class="card-body text-dark">
+    <h5 class="card-title"></h5>
+    <p class="card-text"><iframe title="Number of Tornadoes by State 1950-2019" aria-label="Map" id="datawrapper-chart-YyQZ8" src="https://datawrapper.dwcdn.net/YyQZ8/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: black;" height="483"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}(); </script></p>
+  </div>
+
+      
+
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- ********* END CARD **************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->      
+
+</center>
+
+<br> </br>
+
+<p>Tornado alley is a defined area in the central United States where tornadoes are more likely to form. The most prominent states in this region are Oklahoma, Kansas, Texas, and Nebraska. However, recently while tornado alley is still the area with the highest number of tornadoes, more states in the eastern part of the United States are beginning to experience a high amount of tornadic activity. </p>
+
+<p>The most famous of these new regions is Dixie Alley, the nickname given to the areas of the southern United States that are vulnerable to tornadoes. The most famous being the 2011 tornado super outbreak. Which produced over a dozen strong and violent tornadoes in states such as Mississippi, Alabama, and Georgia.  </p>
+
+<p>As of recent the frequency of tornadoes outside of the traditional tornado alley has steadily increased. Not just in the deep south, but in places such as Ohio, Kentucky, and even central New York. The reasoning for this once again goes back to the changing of the climate and the instability of weather patterns. </p>
+
+<p>“As the climate changes and those jet streams, weather patterns, and air masses become less and less predictably stable.” Daniel Curewitz said. “You are going to get more and more of those moments when all of a sudden, the conditions are ripe for a series of tornadoes to spawn in the region from central New York to central Maine, and this is happening more frequently.”  </p>
+
+<p>There are multiple theories on what could happen in the future due to climate change. With some meteorologists believing that tornado alley will expand eastward and strengthen in intensity. Other meteorologists believe that tornado alley will simply shift eastward. While some simply believe that it will be chaos and predictability will be out the window. Whatever the future holds its surely to be unpredictable.  </p>
+
+<p>“What we’re measuring now is that things are changing fast and that we can expect more tornado like behavior and regions that aren’t used to it.” Curewitz said. </p>
+
+</div>
+
+</body>
+
+   <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- ******BEGIN BOOTSTRAP************** -->
+    <!-- ******SCRIPT, WHICH MUST BE AT THE* -->
+    <!-- ******END OF YOUR CODY BEFORE THE** -->
+    <!-- ******CLOSING BODY TAG ************ -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+      
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- ******END BOOTSTRAP  ************** -->
+    <!-- ******SCRIPT TAG     ************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+    <!-- *********************************** -->
+      
+
+</html>
